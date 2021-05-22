@@ -1,0 +1,56 @@
+#What is MongoDB?
+- MongoDB is a document-based NoSQL database
+
+## Document-based
+
+- MongoDB stores data using a document data structure. 
+Documents are JSON-like objects with key-value pairs. 
+Documents with similar data are stored within collections.
+
+###lIMITATION
+- size limit of 16 megabytes
+### ACID - SQL DATABASE (SQL)
+- atomicity
+    - Atomicity
+        All components of a transaction are treated as a single action.
+    - Consistency
+        All transactions must follow the defined rules of the database, such as constraints.
+    - Isolation
+        Concurrently executed transactions result in the same database state as if they were sequentially executed.
+    - Durability
+        Once a transaction is committed, it will persist and cannot be undone by something like a system failure.
+### CAP theorem: NOSQL DATABASE (MongoDB)
+    - Consistency
+        All duplicates of the same data will be the same value across a distributed system.
+    - Availability
+        All nodes within a system can process operations and respond to queries.
+    - Partition tolerance
+        The system continues to operate despite any unplanned network connectivity loss between nodes.
+
+## Mongoose
+    - Mongoose is an object data modeling (ODM) library for MongoDB and Node.js. 
+    - equivilent as ORM in SQL  ORM (e.g. Active Record)
+## Express
+    -Express is a web application framework for Node.
+        - Write handlers to respond to different HTTP verb requests at different URL paths.
+            - Similar to defining routes and controller methods in our Fullstack Projects, 
+                you will use Express to turn your backend into an API that your frontend will 
+                use to retrieve information.
+        - Combine with view rendering engines to generate responses by passing data to templates.
+        - Set common web application settings like which port to use.
+        - Add middleware at any point within the request handling pipeline.
+    - It is important to note that Express is a very minimalistic library, so there is a huge amount
+     of middleware that has been created by other developers to solve specific web development problems
+
+## React
+    - Axios
+        - Axios is a promise based HTTP client that can be used in both the browser and a Node environment. 
+            -- mainly be utilizing Axios to make your frontend AJAX calls instead of jQuery's $.ajax method.
+                (Axios documentation)[https://github.com/axios/axios]
+
+## Node.js
+    - 
+
+    OvYM90ANDkqR5Qsm
+
+    mongodb+srv://dev:OvYM90ANDkqR5Qsm@cluster0.y2o4p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
