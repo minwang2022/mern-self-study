@@ -53,4 +53,4 @@ Documents with similar data are stored within collections.
 
     OvYM90ANDkqR5Qsm
 
-    mongodb+srv://dev:OvYM90ANDkqR5Qsm@cluster0.y2o4p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+    mongodb+srv://dev:OvYM90ANDkqR5Qsm@cluster0.y2o4p.mongodb.net/myFirstDatabase?w=majority&retryWrites=true
